@@ -1,0 +1,160 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    background-image: url('geta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 90%;
+    width: 800px;
+    position: relative;
+}
+
+.menu-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.im {
+    width: 85px;
+    height: 85px;
+    margin-right: 20px;
+}
+
+.gt {
+    font-size: 1.8em;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.di {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.ik {
+    font-size: 1.2em;
+    color: rgb(237, 13, 222);
+    margin-bottom: 20px;
+}
+
+#menuButton {
+    background-color: #007bff;
+    color: rgb(249, 245, 245);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#menuButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
+
+#menuItems {
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#menuItems ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menuItems li {
+    padding: 10px 0;
+}
+
+#menuItems li a {
+    text-decoration: none;
+    color: #0a0b0d;
+    transition: color 0.3s;
+}
+
+#menuItems li a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: rgba(239, 136, 10, 0.2);
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .gt {
+        font-size: 1.4em;
+    }
+
+    .di {
+        font-size: 1.2em;
+    }
+
+    .ik {
+        font-size: 1em;
+    }
+
+    #menuButton {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .im {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+}

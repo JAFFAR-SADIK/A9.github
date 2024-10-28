@@ -1,0 +1,100 @@
+.sing{
+    list-style-type: none;
+    padding-bottom: 10px;
+    position: absolute;
+    top:30%;
+}
+.sing li{
+    margin-right: 10px;  /* Space between items */
+    padding-bottom: 100px;
+}
+.dance{
+    list-style-type: none;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 20%;
+    top: 270px;
+    font-size: larger;
+}
+.dance pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dance li{
+    margin-right: 10px;  /* Space between items */
+    padding-bottom: 250px;
+}
+.an{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.am{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.m{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.me{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.mg{
+width: 85px;
+height:85px;
+position: absolute;
+top: 18px;
+left: 20%;
+}
+.ta{
+position: absolute;
+top:5px;
+left:25%;
+font-size: 2.3em;
+color: rgba(7, 91, 247, 0.884); /* Deep navy blue */
+text-shadow: 1px 1px 2px rgba(255, 215, 0, 0.7); /* Gold accent */
+
+}
+.ding{
+    list-style-type: none; /* Remove default numbering */
+    padding: 0;           /* Remove padding */
+    display: flex;  /*Use flexbox for alignment */
+    position: absolute;
+    top:16%;
+    left:20%;
+}
+.ding li{
+    margin-right: 10px;  /* Space between items */
+    padding-right: 100px;
+}
+    /* Unvisited link */
+a:link {
+    color: blue;
+}
+
+/* Visited link */
+a:visited {
+    color: purple;
+}
+
+/* Mouse over link */
+a:hover {
+    color: green;
+}
+
+/* Selected link */
+a:active {
+    color: red;
+}
+a{
+    font-size: larger;
+}
+.ab{
+    position: absolute;
+    top: 18%;
+    left:10%;
+}
